@@ -49,11 +49,11 @@ after_success:
 
 ## Other CI services
 
-+ Add `CODECOV_TOKEN=<your repo token>` to your CI's environment variables.
-  (Don't store the raw token in your repo.)
 + Adjust the materials in [lua-travis-example][6] as necessary to work with
   your CI. (See for example: [this post][7] for an example using
   [Drone.io][8].)
++ Add `CODECOV_TOKEN=<your repo token>` to your CI's environment variables.
+  (Don't store the raw token in your repo.)
 + Run `bash <(curl -s https://codecov.io/bash)` after tests complete.
 
 ## More details
