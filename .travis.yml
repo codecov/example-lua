@@ -1,0 +1,30 @@
+language: c
+
+sudo: false
+
+env:
+  global:
+    - LUAROCKS=2.2.2
+  matrix:
+    - LUA=lua5.1
+    - LUA=lua5.2
+    - LUA=lua5.3
+    - LUA=luajit     # latest stable version (2.0.3)
+
+branches:
+  only:
+    - master
+
+before_install:
+  - source .travis/setenv_lua.sh
+  - luarocks install tapered
+
+script:
+  - lua -lluacov awesome-tests.lua
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+notifications:
+  email:
+    on_success: change
+    on_failure: always
