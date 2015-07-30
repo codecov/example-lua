@@ -4,8 +4,8 @@ Codecov Lua Example
 | [https://codecov.io][1] | [@codecov][2] | [hello@codecov.io][3] |
 | ----------------------- | ------------- | --------------------- |
 
-This repository serves as an **example** on how to use [Codecov Global][4] for
-Lua.
+This repository serves as an **example** of how to use [the Codecov global
+uploader][4] with a Lua repository.
 
 ## Basic Usage
 
@@ -16,8 +16,9 @@ reports. For example:
 lua -lluacov awesome-tests.lua
 ```
 
-After you've run the tests and created a LuaCov report, you can use [Codecov
-Global][4] to upload that report to Codecov. See below for more detail.
+After you've run the tests and created a LuaCov report, you can use [the
+Codecov global uploader][4] to push that report to Codecov. See below for
+further details.
 
 ## [![travis-org](https://avatars2.githubusercontent.com/u/639823?v=2&s=50)](https://travis-ci.org) Travis CI
 
@@ -55,7 +56,10 @@ after_success:
   [Drone.io][8].)
 + Run `bash <(curl -s https://codecov.io/bash)` after tests complete.
 
-View source and learn more about [Codecov Global Uploader][4]
+## More details
+
+Visit [the global uploader's repo][4] to view its source and learn more about
+the script.
 
 [1]: https://codecov.io
 [2]: https://twitter.com/codecov
