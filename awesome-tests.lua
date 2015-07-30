@@ -7,3 +7,5 @@ t.is(smile, ':)', 'awesome.smile should be :)')
 
 local frown = awesome.frown()
 t.is(frown, ':(', 'awesome.frown should be :(')
+
+t.done()
