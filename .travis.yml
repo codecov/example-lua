@@ -24,7 +24,7 @@ script:
   - lua -lluacov awesome-tests.lua
 
 after_success:
-
+  - bash <(curl -s https://codecov.io/bash)
 notifications:
   email:
     on_success: change
