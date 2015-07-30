@@ -5,7 +5,7 @@ Codecov Lua Example [![travisCI](https://travis-ci.org/codecov/example-lua.svg)]
 | ----------------------- | ------------- | --------------------- |
 
 This repository serves as an **example** of how to use [the Codecov global
-uploader][4] with a Lua repository.
+uploader][4] with Lua.
 
 ## Basic Usage
 
