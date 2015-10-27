@@ -11,10 +11,6 @@ env:
     - LUA=lua5.3
     - LUA=luajit     # latest stable version (2.0.3)
 
-branches:
-  only:
-    - master
-
 before_install:
   - source .travis/setenv_lua.sh
   - luarocks install luacov
