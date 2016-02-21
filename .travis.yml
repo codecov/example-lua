@@ -10,7 +10,6 @@ env:
     - LUA=lua5.2
     - LUA=lua5.3
 
-
 before_install:
   - source .travis/setenv_lua.sh
   - luarocks install luacov
@@ -20,8 +19,4 @@ script:
   - lua -lluacov awesome-tests.lua
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -f luacov.report.out
-notifications:
-  email:
-    on_success: change
-    on_failure: always
+  - bash <(curl -s https://codecov.io/bash)
