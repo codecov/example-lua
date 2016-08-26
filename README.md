@@ -1,4 +1,4 @@
-Codecov Lua Example [![travisCI](https://travis-ci.org/codecov/example-lua.svg)](https://travis-ci.org/codecov/example-lua) [![codecov.io](http://codecov.io/github/codecov/example-lua/coverage.svg?branch=master)](http://codecov.io/github/codecov/example-lua?branch=master)
+Codecov Lua Example [![travisCI](https://travis-ci.org/codecov/example-lua.svg)](https://travis-ci.org/codecov/example-lua) [![codecov.io](http://codecov.io/github/codecov/example-lua/branch/master/graphs/badge.svg)](http://codecov.io/github/codecov/example-lua)
 =====================
 
 | [https://codecov.io][1] | [@codecov][2] | [hello@codecov.io][3] |
